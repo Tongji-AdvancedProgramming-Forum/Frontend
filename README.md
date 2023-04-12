@@ -1,3 +1,17 @@
+# 维护说明
+
+笔者对前端了解不多，如有糟糕的地方请大家帮忙重构。
+
+<!-- ## CSS
+
+项目使用了两个组件库：Carbon（负责提供统一的设计样式）和 React Suite（负责实现一些 Carbon 没有的小组件）。使用两个组件库本身是非常糟糕的一件事情，如有可能欢迎大家重构代码，把 React Suite 中使用到的组件重新自己实现一遍。
+
+为了防止可能的 CSS 污染，项目中**请不要 import 整个 rsuite 的 css 文件**，而是按需引入。
+
+我目前还没有找到如何无损在 create-react-app 中使用 less-loader 的方法。由于对 react 还不算熟悉，不打算考虑将 create-react-app 进行 eject 操作以引入 less-loader。因此，请大家在`src/styles/rsuite.less`中导入所用到组件的 less 样式表，并在导入后手动运行`lessc rsuite.less > rsuite.css`。
+
+如果有更优雅的解决方法，敬请不吝赐教。 -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
